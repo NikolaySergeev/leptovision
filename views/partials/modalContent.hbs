@@ -1,0 +1,14 @@
+<div class="modal-header">
+  <h3>Введите имя пользователя</h3>
+</div>
+<div class="modal-body">
+	<form ng-submit="submitName();">
+        <div class="form-group">
+            <label for="name">Имя</label>
+            <input type="text" class="form-control" id="name" ng-model="user.name" placeholder="Username">
+        </div>
+        <button type="submit" ng-disabled="!user.name" class="btn btn-primary btn-lg">Войти</button>
+    </form>
+</div>
+<div class="modal-footer">
+</div>

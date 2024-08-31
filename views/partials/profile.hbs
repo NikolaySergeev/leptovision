@@ -1,0 +1,22 @@
+	<div class="container" ng-cloak>
+		<div class="page-header text-center">
+		<h1 class="h1" ><span class="glyphicon glyphicon-phone-alt"></span> Lepton Vision</h1>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+                <div class="text-center" style="background-color: #006666;height:75vh;padding-top:15px">
+
+						<h3 class="h3" style="color: white">Введите ссылку на комнату или <button ng-click="createNewRoom()" class="btn btn-md btn-default" id="createNewRoom">Создать новую комнату</button></h3>
+						<div class="input-group" style="width:50%;margin:auto;margin-top:15px">
+							<form ng-submit="getRoomUrl()">
+								<input type="text" class="form-control copyroomurl" placeholder="Пример: leptovision.herokuapp.com/fabric/:XzDWeRqocE или XzDWeRqocE" ng-model="urlToRoom">
+								<span class="input-group-btn">
+								<button class="btn btn-md btn-success" id="RoomUrl">Продолжить</button>
+								</span>
+							</form>
+						</div>
+
+				</div>
+			</div>
+		</div>
+	</div>

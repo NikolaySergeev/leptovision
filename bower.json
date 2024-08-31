@@ -1,0 +1,19 @@
+{
+  "name": "fabricjs-collaboration-example",
+  "description": "AngularJs Realtime Canvas with FabricJS and Socket.io",
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "angular": "1.7.8",
+    "angular-route": "1.7.8",
+	"angular-bootstrap": "2.5.0",
+    "socket.io-client": "~1.3.7",
+    "bootstrap": "~3.3.5",
+    "fabric.js": "fabric#~2.4.6",
+    "font-awesome": "~4.4.0"
+  }
+}
